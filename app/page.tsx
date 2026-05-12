@@ -113,8 +113,8 @@ export default function Home() {
                 </span>
               </div>
 
-              <h3 className="text-lg font-semibold text-white mb-2">{tool.name}</h3>
-              <p className="text-white/40 text-sm leading-relaxed">{tool.description}</p>
+              <h3 className="text-xl font-semibold text-white mb-3">{tool.name}</h3>
+              <p className="text-white/50 text-base leading-relaxed">{tool.description}</p>
 
               <div className="mt-5 flex items-center gap-1 text-sm font-medium" style={{ color: "#A100FF" }}>
                 Open tool
@@ -133,7 +133,7 @@ export default function Home() {
 
           {/* Placeholder card */}
           <div className="rounded-2xl border border-dashed border-white/10 p-6 flex flex-col items-center justify-center text-center min-h-[200px]">
-            <p className="text-white/20 text-sm">More tools coming soon</p>
+            <p className="text-white/40 text-base">More tools coming soon</p>
           </div>
         </div>
       </section>
@@ -142,9 +142,9 @@ export default function Home() {
       <footer className="max-w-5xl mx-auto px-6 sm:px-10 py-6 border-t border-white/10 flex items-center justify-between">
         <div className="flex items-center gap-2">
           <span className="font-bold" style={{ color: "#A100FF" }}>&gt;</span>
-          <span className="text-white/20 text-xs">ABG AI Intelligence Suite</span>
+          <span className="text-white/50 text-xs">ABG AI Intelligence Suite</span>
         </div>
-        <span className="text-white/20 text-xs">Accenture Internal</span>
+        <span className="text-white/50 text-xs">Accenture Internal</span>
       </footer>
     </div>
   );

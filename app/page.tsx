@@ -19,12 +19,11 @@ export default function Home() {
             &gt;
           </span>
         </div>
-        <a
-          href="mailto:bradley.harrison@accenture.com"
-          className="text-sm lg:text-base px-5 lg:px-7 py-2 lg:py-2.5 rounded-full border border-white/20 text-white hover:bg-white/10 transition-colors"
+        <span
+          className="text-sm lg:text-base px-5 lg:px-7 py-2 lg:py-2.5 rounded-full border border-white/20 text-white"
         >
           Get Access
-        </a>
+        </span>
       </nav>
 
       {/* Hero */}
